@@ -1,0 +1,154 @@
+@media screen and (max-width:576px) {
+    /* navabar */
+    .navbar{
+        padding-top: 33px;
+        padding-bottom: 46.12px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .menubar-icone{
+        display: block;
+    } 
+    .menubar{
+        display: none;
+    }
+    /* navbar */
+    /* banner */
+    .banner{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .banner-info h4{
+        max-width: 485px;
+        color: rgb(255, 255, 255);
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 50px;
+        margin-top: 10px;
+    }
+    .banner-info button{
+        margin-bottom: 50px;
+    }
+    /* bannere */
+    /* main */
+    main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        margin-bottom: 60px;
+    }
+    .card{
+        margin-left: 25px;
+    }
+    /* main */
+    /* copa */
+    .copa-ame{
+        flex-direction: column;
+        margin-bottom: 58px;
+        margin-left:5px;
+        /* margin-right: 5px; */
+
+    }
+    .copa-info{
+        max-width: 20.5rem;
+        margin-top: 20px;
+        margin-right: 1px;
+    }
+        .copa-info h4{
+            font-size: 30px;
+            width: 297.5px;
+            line-height: 40px;
+        }
+        .copa-ame-info p{
+            margin-right: 20px;
+        }
+       /* footer */
+       .footer{
+        margin-left: 20px;
+        margin-right: 20px;
+       }
+       .footer-icons{
+        gap: 14px;
+    }
+       .footer img{
+        max-width: 100%;
+        height: 110px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    
+    }
+        
+    }
+@media screen and (max-width:375px){
+    .card{
+        margin-left: 6px;
+    }
+}
+@media screen and (max-width:320px){
+nav{
+        width: 355px;
+        background-color: rgba(7, 7, 209, 0.671);
+        /* margin-left: 20px; */
+        
+} 
+.navbar{
+    width: 320px;
+}
+.copa-ame{
+    width:20rem;
+}
+.copa-info{
+    width: 20rem;
+}
+.footer{
+    width: 20rem;
+}
+.footer img{
+    width: 100%;
+}
+
+}
+@media screen and (min-width:576.1px) and (max-width:992px) {
+    nav{
+    width: 1050px;
+    }
+    .navbar{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .banner{
+        margin-left: 20px;
+    margin-right: 20px;
+    }
+    .main{
+        margin-left: 20px;
+    margin-right: 20px;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr); 
+        margin-left: 160px;
+        gap: 30px;
+    }
+    .copa-ame{
+        max-width:69rem;
+        display: flex;
+        margin-bottom: 158px;
+        margin-left: 25px;
+    }
+    .copa-img{
+        width: 400px;
+        height: 450px;
+     }
+     .copa-img img{
+         width: 100%;
+         height: 100%;
+     
+     }
+}
