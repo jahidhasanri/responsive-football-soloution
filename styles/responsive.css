@@ -145,6 +145,7 @@ nav{
     .copa-img{
         width: 400px;
         height: 450px;
+        margin-right: -500px;
      }
      .copa-img img{
          width: 100%;
